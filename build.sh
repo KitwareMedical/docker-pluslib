@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t plus .
+docker build -t pluslib .
