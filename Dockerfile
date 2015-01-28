@@ -44,3 +44,5 @@ RUN cmake -G Ninja \
   -DPLUS_EXECUTABLE_OUTPUT_PATH=/opt/bin/PlusLib/bin \
   /opt/src/PlusLib
 RUN ninja
+
+ENV PATH=/opt/bin/PlusLib/bin:$PATH
